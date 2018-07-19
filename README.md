@@ -1,6 +1,6 @@
-react-global-hoc
-================
-HOCs to complement [https://github.com/acdlite/recompose](recompose)
+react-redux-connector
+=====================
+An abstraction on connecting Redux state to React Components
 
 For now, see source for documentation.  More docs coming soon.
 
