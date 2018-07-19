@@ -1,0 +1,53 @@
+{
+  "name": "@sellerlabs/react-redux-connector",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/bundle.js",
+  "moduleRoots": [
+    "src"
+  ],
+  "peerDependencies": {
+    "babel-polyfill": "6.x",
+    "react-redux": "5.x",
+    "redux": "4.x"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.62.0",
+    "rollup-plugin-babel": "^3.0.7"
+  },
+  "description": "An abstraction on connecting Redux state to React Components",
+  "scripts": {
+    "build": "npx rollup -c ./rollup.config.js",
+    "watch": "npx rollup -c ./rollup.config.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sellerlabs/react-redux-connector.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "react-redux"
+  ],
+  "author": "Darnell Arford",
+  "bugs": {
+    "url": "https://github.com/sellerlabs/react-redux-connector/issues"
+  },
+  "homepage": "https://github.com/sellerlabs/react-redux-connector#readme"
+}
